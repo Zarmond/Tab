@@ -1,0 +1,37 @@
+@charset "utf-8";
+.cont
+{
+    width: 70vw;
+    margin: 50px auto;
+}
+body,
+.tab-sidebar_item
+{
+    border:1px solid gray;
+}
+.tab-body_item
+{
+    display: none;
+    min-height: 100px;
+}
+.tab-body_item.active
+{
+    display: block;
+    padding: 10px;
+}
+.tab-sidebar_item
+{
+    display: inline-block;
+    padding: 10px 20px;
+    min-width: 70px;
+
+    text-align: center;
+
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+.tab-sidebar_item.active
+{
+    background-color: teal;
+    color: white;
+}
